@@ -1,26 +1,18 @@
 {
-  "name": "alwaygo",
+  "name": "mongochat",
   "version": "1.0.0",
-  "description": "Social Network",
+  "description": "Simple chat app using sockets",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" "
   },
-  "author": "Alen Abrahamyan",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "concurrently": "^4.1.1",
-    "config": "^3.1.0",
-    "express": "^4.17.1",
-    "express-fileupload": "^1.1.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.3.0",
-    "mongoose": "^5.6.1",
+    "concurrently": "^4.1.2",
+    "mongodb": "^2.2.36",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
