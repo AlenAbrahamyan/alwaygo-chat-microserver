@@ -1,5 +1,5 @@
 const mongo = require('mongodb').MongoClient;
-const client = require('socket.io').listen(process.env.PORT).sockets;
+const client = require('socket.io').listen(8080).sockets;
 let msg_arr;
 let aaaa = 1;
 
